@@ -124,7 +124,7 @@ var fac = (function (){
                 for (var i=elements.length; i--;) {
                     elements[i].classList.add("small-dd");
                 }
-            } 
+            }
             else {
                 if(elements[0].className.match(/(?:^|\s)small-dd(?!\S)/)) {
                     for (var i=elements.length; i--;) {
@@ -146,7 +146,7 @@ var fac = (function (){
                   for (var i=elements.length; i--;) {
                       elements[i].classList.add("small-dd");
                   }
-              } 
+              }
               else {
                   if(elements[0].className.match(/(?:^|\s)small-dd(?!\S)/)) {
                       for (var i=elements.length; i--;) {
@@ -167,7 +167,7 @@ var fac = (function (){
     /**
      *  Consistent aspect ration for portfolio images
      *
-     */  
+     */
     function img_resize()	{
         var imgWidth = document.getElementById("img").offsetWidth;
         var elements = document.getElementsByClassName('im');
@@ -176,7 +176,7 @@ var fac = (function (){
         }
     }
     function home_resize() {
-        if (window.location.pathname == '/' || window.location.pathname == /portfolio/ ) {
+        if (window.location.pathname == '/agency/') {
             img_resize();
             window.onresize = function() {
                 img_resize();
@@ -250,7 +250,7 @@ var fac = (function (){
         }
     }
     /**
-     *  Get the user to the specific section. Scrolls to section 
+     *  Get the user to the specific section. Scrolls to section
      *  if already on the correct page. Navigates directly to content
      *  if navigating between pages.
      *
@@ -283,7 +283,7 @@ var fac = (function (){
 
 /**
  *  Contact form
- *  
+ *
  */
 
 var contact_form = (function (){
@@ -294,7 +294,7 @@ var contact_form = (function (){
      *  Constructs the email for Mandrill
      *  which we will recieve
      */
-    function createParams(name, email, message, location) { 
+    function createParams(name, email, message, location) {
         var params = {
             "message": {
                 "from_email":email,
@@ -307,7 +307,7 @@ var contact_form = (function (){
     };
     /**
      *  TODO
-     *  
+     *
      */
     m = new mandrill.Mandrill('J23eakjghP54ii1jfviYfg');
      /**
@@ -336,7 +336,7 @@ var contact_form = (function (){
 
 /**
  *  New contact form functionality with Heroku
- *  
+ *
  */
 // var contact_form = (function (){
 
@@ -366,10 +366,10 @@ var contact_form = (function (){
 //       });
 //               		// var xhr = new XMLHttpRequest();
 //               		// xhr.onreadstatechange = function () {
-              			
+
 //               		// 	console.log("OK");
 //               		// }
-              		
+
 //               		// xhr.open("POST", apiEmail, true);
 //                 //   xhr.withCredentials = true;
 //               		// xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -390,3 +390,11 @@ var contact_form = (function (){
 //      */
 //     return reveal;
 // }());
+
+$(document).ready(function(){
+  $("#button").hover(function(){
+      $("#image").css("opacity", 0);
+      }, function(){
+      $("#image").css("opacity", 1);
+  });
+});

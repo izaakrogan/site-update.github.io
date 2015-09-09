@@ -70,10 +70,11 @@ button {
 	color: $color-one;
 	border: 1px solid #ccc;
 	border-radius: 40px;
-	font-family: 'UG med';
-	letter-spacing: 2px;
+	font-family: 'UG bold';
+	letter-spacing: 1px;
 	font-size: 20px;
 	padding: 10px 20px;
+	opacity: 0.7;
 	&:hover {
 		background-color: #999;
 		border: 1px solid #999;

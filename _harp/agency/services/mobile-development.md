@@ -1,9 +1,7 @@
 #Mobile Development
 
-We develop software applications for Web and mobile.
+We are amongst the only teams in London who have brought an iOS app into production using React Native.
 
-Our approach to building native mobile apps is to build a prototype as a Web app first. Then we port to native platforms, using tools and libraries that include [PhoneGap](http://phonegap.com/), [Ionic](http://ionicframework.com/), [Famous](http://famous.org/) and [React Native](http://www.reactnative.com/).
+We can also provide expert training in React Native, particularly around testing.
 
-This approach tends to be significantly less expensive than developing Web and native apps separately and reduces development risk. 
-
-
+We also work with [PhoneGap](http://phonegap.com/), [Ionic](http://ionicframework.com/) and [Famous](http://famous.org/)

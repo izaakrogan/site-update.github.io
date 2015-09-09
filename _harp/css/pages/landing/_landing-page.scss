@@ -1,10 +1,28 @@
 .section-landing {
 	@extend %section;
 	height: 80vh;
+	position: relative;
 	flex-direction: column;
-
-	background-image: url('../assets/fac-sofa-hd-2.jpg');
-	background-size: cover;
+	.section-landing-image {
+		background-image: url('../assets/sofa-bw.jpeg');
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		transition: opacity .3s ease-in-out;
+		opacity: 1;
+	}
+	.section-landing-image-alt {
+		background-image: url('../assets/sofa-color.jpg');
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -2;
+	}
 	h1, p {
 		color: $color-three;
 		font-family: 'UG thin';
@@ -30,11 +48,15 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5% 15%;
+	padding: 5% 10px;
 	position: relative;
 	font-style: italic;
 	.copy {
 		z-index: 2;
+	}
+	div {
+		max-width: 800px;
+		margin: auto;
 	}
 	h1 {
 		margin-bottom: 5%;
@@ -53,12 +75,40 @@
 	align-items: center;
 	padding: 0 10%;
 	background-color: white;
+	height: 110px;
+	div {
+		max-width: 200px;
+		width: 25%;
+	}
+	a {
+		display: flex;
+	}
 	img {
 		opacity: 0.3;
-		max-width: 10%;
-		max-height: 100px;
 		filter: grayscale(100%);
-		margin: 3% 0;
+		margin: auto;
+	}
+	.switch {
+		max-width: 110px;
+		width: 90%;
+	}
+	.course {
+		max-width: 90px;
+		width: 90%;
+	}
+	.observer {
+		max-width: 110px;
+		width: 90%;
+	}
+	.forbes {
+		max-width: 90px;
+		width: 90%;
+	}
+}
+
+@media (max-width:700px) {
+	.sponsor-section {
+		padding:0 2%;
 	}
 }
 
@@ -116,10 +166,19 @@
 		height: 60px;
 		padding: 20px 40px;
 		font-size: 20px;
+		opacity: 0.7;
+    border: 1px solid grey;
 	}
 	.button-one {
 		height: 50px;
 		padding: 15px 20px;
+		width: 181px;
+	}
+}
+
+@media (max-width: 700px) {
+	.apply-section {
+		flex-direction: column;
 	}
 }
 
