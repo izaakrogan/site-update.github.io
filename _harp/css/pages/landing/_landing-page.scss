@@ -126,13 +126,24 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+    .carousel-wrap {
+        height: 328px;
+        width: 550px;
+        position: relative;
+        overflow: hidden;
+    }
 	.testimonial {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
+        position: absolute;
+        height: 328px;
+        width: 3000px;
 	}
+    .carousel-item {
+        width: 550px;
+        float: left;
+        p {
+            text-align: center;
+        }
+    }
 	.test {
 		font-size: 24px;
 	}
