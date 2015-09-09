@@ -30,7 +30,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5% 15% 4% 15%;
+	padding: 5% 15%;
 	position: relative;
 	font-style: italic;
 	.copy {
@@ -216,7 +216,7 @@
 .section-portfolio {
 	width: 100%;
 	position: relative;
-	background-color: $color-two;
+	background-color: white;
 	height: auto;
 	padding: 30px 70px;
 	overflow: hidden;
@@ -323,7 +323,7 @@
 	position: relative;
 	background-color: $color-two;
 	height: auto;
-	padding: 100px 50px;
+	padding: 50px 50px;
 	overflow: hidden;
 	text-align: center;
 	h2 {
