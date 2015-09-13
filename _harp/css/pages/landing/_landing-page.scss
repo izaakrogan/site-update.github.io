@@ -4,9 +4,9 @@
 	position: relative;
 	flex-direction: column;
 	.section-landing-image {
-		background-image: url('../assets/sofa-bw.jpeg');
+		background-image: url('../assets/garden-lunch-bw.jpeg');
 		background-size: cover;
-		background-position: center top;
+		background-position: center;
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -16,9 +16,9 @@
 		opacity: 1;
 	}
 	.section-landing-image-alt {
-		background-image: url('../assets/sofa-color.jpg');
+		background-image: url('../assets/garden-lunch.JPG');
 		background-size: cover;
-		background-position: center top;
+		background-position: center;
 
 		height: 100%;
 		width: 100%;
@@ -201,8 +201,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	button {
+	a {
 		margin: 2%;
+	}
+	button {
 		height: 60px;
 		padding: 20px 40px;
 		font-size: 20px;
