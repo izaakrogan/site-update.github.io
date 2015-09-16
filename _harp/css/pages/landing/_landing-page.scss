@@ -4,8 +4,9 @@
 	position: relative;
 	flex-direction: column;
 	.section-landing-image {
-		background-image: url('../assets/sofa-bw.jpeg');
+		background-image: url('../assets/garden-lunch-bw.jpeg');
 		background-size: cover;
+		background-position: center;
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -15,15 +16,17 @@
 		opacity: 1;
 	}
 	.section-landing-image-alt {
-		background-image: url('../assets/sofa-color.jpg');
+		background-image: url('../assets/garden-lunch.JPG');
 		background-size: cover;
+		background-position: center;
+
 		height: 100%;
 		width: 100%;
 		position: absolute;
 		top: 0;
 		z-index: -2;
 	}
-	h1, p {
+	h1, p, span {
 		color: $color-three;
 		font-family: 'UG thin';
 	}
@@ -31,9 +34,46 @@
 		font-size: 52px;
 	}
 	p {
-		margin-bottom: 10vh;
 		font-size: 20px;
-		font-family: 'UG med'
+		font-family: 'UG med';
+		span {
+			font-size: 20px;
+			font-family: 'UG med';
+		}
+	}
+	button {
+		margin-top: 20px;
+	}
+	.margin {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+	.section-landing {
+		h1 {
+			font-size: 40px;
+		}
+		p {
+			font-size: 16px;
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: $mobile) {
+	.section-landing {
+		h1 {
+			font-size: 30px;
+		}
+		p {
+			font-size: 12px;
+			span {
+				font-size: 12px;
+			}
+		}
 	}
 }
 
@@ -172,8 +212,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	button {
+	a {
 		margin: 2%;
+	}
+	button {
 		height: 60px;
 		padding: 20px 40px;
 		font-size: 20px;
