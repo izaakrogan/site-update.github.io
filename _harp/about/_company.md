@@ -1,5 +1,5 @@
 # About us
 
-*Founders & Coders C.I.C.* provides the industry's leading training in full-stack JavaScript. Our courses are free and all of the profits we make from placing our graduates go back into improving the quality of our training programme.
+*Founders & Coders C.I.C.* is an organisation like no other. We provide the UK's leading training in full-stack JavaScript. We don’t charge our students a penny and any profits we make go back into improving the quality of our training programme.
 
-We believe that an elite eduction should not just be accessible to those who can afford to pay for it. We aim to provide the best possible training in web development - for free. We manage this through the support of our mentors, the tech community and our graduates, who often join our faculty to help to teach future cohorts.
+Our aim is to provide the best possible training in web development—for free. We manage to do this with the assistance of our alumni, who help us run the programme, and through employers, who hire our
