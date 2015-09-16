@@ -9,7 +9,7 @@ We are now taking applications for the course starting on January 11th, based at
 
 We may also request a short in-person paired programming session (remote sessions can also be arranged).
 
-We also now run a pre-course programme. The aim of the programme is to give promising candidates a chance to continue with their preparation in a supportive environment, while also volunteering to work as part of a small business development team. Just check the "I am interested in participating in the internship programme" box when completing the application form.
+We also now run a pre-course programme. The aim of the programme is to give promising candidates a chance to continue with their preparation in a supportive environment, while also volunteering to work as part of a small business development team. Just check the "I am interested in participating in the pre-course programme" box when completing the application form.
 
 ## Application deadlines
 

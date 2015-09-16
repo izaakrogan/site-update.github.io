@@ -44,3 +44,15 @@
   bottom: 0;
   margin-left: 42%;
 }
+
+a:hover {
+  .quote-box {
+    background-color: $color-three
+  }
+  .quote-box::before {
+    background-color: $color-three
+  }
+  .quote-box::after {
+    background-color: $color-three
+  }
+}
