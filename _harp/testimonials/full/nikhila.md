@@ -8,7 +8,7 @@ Since taking a few technical classes at university I have wanted to learn how to
 
 But I have loved it more than I could ever have imagined.
 
-I have learnt more useful practical knowledge in 8 weeks than in a whole year at university.
+I have learnt more useful practical knowledge in 16 weeks than in a whole year at university.
 
 And I have enjoyed it immensely. Why? Because at FAC we learn to become good programmers because we enjoy coding, not so we can ace a test at the end.
 
