@@ -1,11 +1,13 @@
 # FAC website
 
-+ Make small changes straight onto `master` (or if you are making big changes, create a new branch)    
++ Master is being used just for the README
++ Make small changes straight onto `dev`
++ If you are making big changes, first create a new branch and merge that into dev    
 + merge into gh-pages
 + compile harp on gh-pages
 + push
 
-    git checkout master
+    git checkout dev
     git merge gh-pages
     git checkout gh-pages
     harp compile _harp .
