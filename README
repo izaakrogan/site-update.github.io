@@ -7,9 +7,15 @@
 + compile harp on gh-pages
 + push
 
+    git checkout gh-pages
+    git pull
     git checkout dev
     git merge gh-pages
+    < make some edits >
+    git commit ...
+    git push
     git checkout gh-pages
+    git merge dev
     harp compile _harp .
     git push
 
