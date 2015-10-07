@@ -1,0 +1,16 @@
+# FAC website
+
++ Make small changes straight onto `master` (or if you are making big changes, create a new branch)    
++ merge into gh-pages
++ compile harp on gh-pages
++ push
+
+    git checkout master
+    git merge gh-pages
+    git checkout gh-pages
+    harp compile _harp .
+    git push
+
+
+
+
