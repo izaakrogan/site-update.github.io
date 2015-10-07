@@ -7,6 +7,7 @@
 + compile harp on gh-pages
 + push
 
+```
     git checkout gh-pages
     git pull
     git checkout dev
@@ -18,7 +19,7 @@
     git merge dev
     harp compile _harp .
     git push
-
+```
 
 
 
